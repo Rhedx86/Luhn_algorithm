@@ -42,7 +42,7 @@ bool divisible_by_10(int addResult)
 
 int main()
 {
-    int creditCard[digitNumber] = { 4,0,0,0,1,2,3,4,5,6,7,8,9,0,1,0 // <- credit card digit here  };
+    int creditCard[digitNumber] = { 4,0,0,0,1,2,3,4,5,6,7,8,9,0,1,0 };// <- credit card digit here  
     if (divisible_by_10(luhn_algorithm(creditCard)) != 1) { cout<<"Your card is a valid card !" << endl; }
 
     return 0;
